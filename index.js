@@ -3,7 +3,7 @@ const JSON_PORT = 7190;
 const POLLING_RATE = 333;
 const JSON_ENDPOINT = `http://${JSON_ADDRESS}:${JSON_PORT}/`;
 
-const itemImage = (itemId) => `<img src="ItemIDs/${itemId}.png"></img>`;
+const itemImage = (itemId) => `<img src="ItemIDS/${itemId}.png"></img>`;
 
 var NoPoison = [
 	0,1,
